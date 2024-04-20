@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Homestyle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-orange">
+        <div class="container-fluid">
+                <div class="col-lg-4 col-12 ps-5 fv-cntr1 revivs d-lg-flex d-none justify-content-lg-start justify-content-center" style="min-width: 160px;">
+                    <a href="Reviews.html" class="lnk zoom1"><i class="fas fa-book-open" style="color: rgb(234, 234, 234);"></i>&nbsp;Reviews</a>
+                </div>
+                <div class="col-lg-2 col-6 mt-lg-5 ps-lg-4 fv-cntr1 revivs d-flex d-lg-none justify-content-start " style="min-width: 160px;">
+                    <a href="Reviews.html" class="lnk zoom1"><i class="fas fa-book-open" style="color: rgb(234, 234, 234);"></i>&nbsp;Reviews</a>
+                </div>
+                <div class="col-lg-2 col-6 fv-cntr1 d-flex d-lg-none mt-lg-5 pt-lg-2 text-center revivs justify-content-end" style="min-width: 155px;"><a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a></div>
+            
+                <div class="col-lg-4 col-12 text-center mt-lg-4">
+                    <a class="navbar-brand logo23" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="200px"
+                        height="120px"></a> <br> <br>
+                        
+                        <form class="d-flex align-items-center justify-content-center mb-lg-3" role="search">
+                            <div class="search-container search-container1 d-flex zoom">
+                                <input type="text" class="search-bar" placeholder="Search...">
+                                <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+                            </div>
+                        </form>
+                </div>
+                <div class="col-lg-2 col-12 fv-cntr1 d-lg-flex d-none text-center revivs  d-flex justify-content-lg-center justify-content-center" style="min-width: 155px;"><a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a></div>
+                
+                
+                <div class="col-lg-2 col-12 pt-lg-3 revivs d-block" style="min-width: 225px; margin-bottom: 15px;">
+                    <div class="btn-container">
+                    <div class="btnstl">
+                        <div class="capsule-container" id="capsule-container">
+                            <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+                            <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                                    class="signup-btn-text">Sign Up</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+    <div class="container-fluid">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand d-lg-none" href="#" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 600; font-variant: small-caps; color: rgb(255, 255, 255); text-shadow: 0px 0px 2px rgb(255, 255, 255); margin-left: 50px; font-size: 15px;">Menu</a>
+
+        <!-- Toggler button for small screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="container-fluid">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active separator4 fsts" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active separator4 dropdown-toggle" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            All Categories
+                        </a>
+                        <ul class="dropdown-menu ul1">
+                            <li><a class="dropdown-item separator14 disabled" href="#">Competitive Exams</a></li>
+                            <ul style="list-style-type: disc;">
+                                <li><a href="GATE.html" target="_self" class="dropdown-item separator24">GATE</a></li>
+                                <li><a href="JEE.html" target="_self" class="dropdown-item separator24">JEE</a></li>
+                                <li><a href="NEET.html" target="_self" class="dropdown-item separator24">NEET</a></li>
+                                <li><a href="CAT.html" target="_self" class="dropdown-item separator24">CAT</a></li>
+                                <li><a href="UPSC.html" target="_self" class="dropdown-item separator24">UPSC</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item separator14" href="LogicalReasoning.html">Logical Reasoning</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item separator14" href="Fiction.html">Fiction</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item separator14" href="Mythology.html">Mythology</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item separator14" href="Historical.html">Historical</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item separator14" href="Reviews.html">Reviews</a></li>
+                </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link active separator4" href="LogicalReasoning.html">Logical Reasoning</a></li>
+                <li class="nav-item"><a class="nav-link active separator4" href="Fiction.html">Fiction</a></li>
+                <li class="nav-item"><a class="nav-link active separator4" href="Mythology.html">Mythology</a></li>
+                <li class="nav-item"><a class="nav-link active separator4" href="Historical.html">Historical</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+    <div class="otr">
+        <h1 class="cetle" style="text-decoration: none;">
+            Home Page
+        </h1>
+    </div>
+    
+    <div class="bdy121">
+        <div class="bkdy">
+        <h5 style="font-size: 16px; text-align: center; color: white; background-color: rgb(255, 175, 25);line-height: 25px; padding: 20px; border-top: 2px solid rgb(255, 175, 25);border-bottom: 2px solid rgb(255, 175, 25); box-shadow: 0px 0px 10px rgb(255, 175, 25); padding-left: 50px; padding-right: 50px; background-blend-mode: screen;"> <span style="font-size: 25px;text-decoration: underline; font-variant: small-caps; text-shadow: 0px 0px 10px white;">About Us</span><br><br> Welcome to Knowledge Verse - Your Gateway to Learning!<br>At
+            Knowledge Verse, we are passionate about making education accessible to everyone. Our mission is
+            simple yet powerful: to provide you with a diverse and comprehensive collection of educational
+            content and PDF resources available on the internet, all in one convenient place.</h5>
+            
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 mx-auto" style="padding: 0px; max-width: 400px;"><img src="Icons/1000.png" style="box-shadow: 0px 0px 10px black;border-radius: 10px;" width="100%" ></div>
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12 my-5 mx-0 cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;">1. Competitive Exams</h3>
+                    <div class="hmetlecntr ">
+                        <ul style="color: white;" class="d-flex d-lg-block cstmcptexm">
+                            <li style="width: min-content;"><a href="GATE.html" target="_self" class="dropdown-item separator242">GATE</a></li>
+                            <li style="width: min-content;"><a href="JEE.html" target="_self" class="dropdown-item separator242">JEE</a></li>
+                            <li style="width: min-content;"><a href="NEET.html" target="_self" class="dropdown-item separator242">NEET</a></li>
+                            <li style="width: min-content;"><a href="CAT.html" target="_self" class="dropdown-item separator242">CAT</a></li>
+                            <li style="width: min-content;"><a href="UPSC.html" target="_self" class="dropdown-item separator242">UPSC</a></li>
+                        </ul>
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>Competitive exams are standardized tests designed to assess knowledge, skills, and aptitude for various educational and professional opportunities. They play a crucial role in admission to universities and recruitment for government or private sector jobs. These exams often involve subjects like mathematics, science, language, and general knowledge and are highly competitive due to limited seats or positions, making thorough preparation essential.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 d-lg-none mx-auto" style="padding: 0px; max-width: 400px;"><img src="Icons/1001.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                <div class="col-lg-5 col-12 my-5 mx-0 d-none d-lg-block cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="LogicalReasoning.html">2. Logical Reasoning</a></h3>
+                    <div class="hmetlecntr mb-4">
+                        
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        
+Logical reasoning books are educational resources designed to enhance one's critical thinking and problem-solving skills. These books typically contain a variety of exercises, puzzles, and examples that challenge readers to apply deductive and inductive reasoning to real-world scenarios. They are commonly used for test preparation, such as standardized tests like the LSAT or GRE, as well as in academic and professional settings where logical thinking is essential. Logical reasoning books often cover topics like formal logic, syllogisms, analogies, and critical reasoning, providing readers with the tools to analyze information, make sound decisions, and excel in academic and practical pursuits.
+                    </div>
+                </div>
+                
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12 my-5 d-lg-none mx-0 cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="LogicalReasoning.html">2. Logical Reasoning</a></h3>
+                    <div class="hmetlecntr mb-4">
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        
+Logical reasoning books are educational resources designed to enhance one's critical thinking and problem-solving skills. These books typically contain a variety of exercises, puzzles, and examples that challenge readers to apply deductive and inductive reasoning to real-world scenarios. They are commonly used for test preparation, such as standardized tests like the LSAT or GRE, as well as in academic and professional settings where logical thinking is essential. Logical reasoning books often cover topics like formal logic, syllogisms, analogies, and critical reasoning, providing readers with the tools to analyze information, make sound decisions, and excel in academic and practical pursuits.
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 mx-auto d-none d-lg-block" style="padding: 0px; max-width: 400px;"><img src="Icons/1001.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                
+            </div>
+        </div>
+            
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 mx-auto" style="padding: 0px; max-width: 400px;"><img src="Icons/1002.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12 my-5 mx-0 cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="Fiction.html">3. Fiction</a></h3>
+                    <div class="hmetlecntr mb-3">
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        Fiction books encompass a vast and diverse literary genre. They include novels, short stories, and novellas, all of which transport readers to imaginative worlds and introduce them to compelling characters and narratives. Fictional works come in various styles and genres, from romance and mystery to science fiction and fantasy. They offer not only entertainment but also the opportunity to explore complex themes, emotions, and human experiences. Fiction books have the power to captivate readers, foster empathy, and provide a lens through which to view and understand different cultures, perspectives, and realities. Whether for escapism or enlightenment, fiction books remain a cornerstone of literature and storytelling.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 d-lg-none mx-auto" style="padding: 0px; max-width: 400px;"><img src="Icons/1003.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                <div class="col-lg-5 col-12 my-5 mx-0 d-none d-lg-block cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="LogicalReasoning.html">4. Mythology</a></h3>
+                    <div class="hmetlecntr mb-4">
+                        
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        Mythology books delve into the legends, gods, heroes, and supernatural beings from various cultures and civilizations. They explore the rich tapestry of myths, offering insights into ancient belief systems and cultural values. These books range from scholarly analyses to popular retellings, catering to both academic and general readers. They often cover Greek, Roman, Norse, Hindu, Egyptian, and other mythologies, providing a window into humanity's collective imagination and heritage. Mythology books captivate readers with epic tales of creation, heroism, and divine intervention, offering a deeper understanding of the cultural and spiritual aspects of different societies.
+                    </div>
+                </div>
+                
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12 my-5 d-lg-none mx-0 cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="LogicalReasoning.html">4. Mythology</a></h3>
+                    <div class="hmetlecntr mb-4">
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        Mythology books delve into the legends, gods, heroes, and supernatural beings from various cultures and civilizations. They explore the rich tapestry of myths, offering insights into ancient belief systems and cultural values. These books range from scholarly analyses to popular retellings, catering to both academic and general readers. They often cover Greek, Roman, Norse, Hindu, Egyptian, and other mythologies, providing a window into humanity's collective imagination and heritage. Mythology books captivate readers with epic tales of creation, heroism, and divine intervention, offering a deeper understanding of the cultural and spiritual aspects of different societies.
+                    </div>
+                </div>
+                <div class="col-lg-5 col-12 mx-auto d-none d-lg-block" style="padding: 0px; max-width: 400px;"><img src="Icons/1003.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                
+            </div>
+        </div>
+        <div class="container">
+            <div class="row mt-5 pt-5">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 mx-auto" style="padding: 0px; max-width: 400px;"><img src="Icons/1004.png" style="box-shadow: 0px 0px 10px black; border-radius: 10px;" width="100%"></div>
+                <div class="col-lg-1 col-12"></div>
+                <div class="col-lg-5 col-12 my-5 mx-0 cstmhmetle my-lg-0">
+                    <h3 style="color: white; font-weight: 600; text-shadow: 0px 0px 5px;"><a style="text-decoration: none; color: white;" href="Historical.html">5. Historical</a></h3>
+                    <div class="hmetlecntr mb-3">
+                    </div>
+                    <div class="lmtpara" style="background-color: rgb(235, 235, 235); border-radius: 10px; padding: 20px 30px 20px 30px; text-align: justify;box-shadow: 0px 0px 10px;">
+                        <h6 style="text-align: center;text-decoration: underline;">Overview</h6>
+                        Historical books are literary works that delve into the past, providing readers with a window into different eras, events, and cultures. These books encompass a wide range of subgenres, including biographies, historical fiction, non-fiction, and academic research. Historical books can explore a specific period, person, or theme, offering insights into the historical context, societal norms, and the impact of past events on today's world. They serve as valuable educational resources, shedding light on the lessons, achievements, and mistakes of the past, helping readers better understand their own time and the human experience across different epochs.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+            <nav
+                class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+                <div class="container-fluid align-items-center justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+    </div>
+</div>
+    <!-- Include Bootstrap JS and jQuery/Popper.js -->
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+        crossorigin="anonymous"></script>
+</body>
+</html>

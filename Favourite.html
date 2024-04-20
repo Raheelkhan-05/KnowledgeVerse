@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Favourites</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-orange">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+                    height="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <form class="d-flex align-items-center justify-content-center" role="search">
+                    <div class="search-container d-flex zoom">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+                    </div>
+                </form>
+                <div class="fv-cntr text-center">
+                    <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="btn-container">
+                    <div class="btnstl">
+                        <div class="capsule-container" id="capsule-container">
+                            <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+                            <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                                    class="signup-btn-text">Sign Up</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active separator dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu ul1">
+                        <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+                        <ul style="list-style-type: disc;">
+                            <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+                            <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+                            <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+                            <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+                            <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="otr1">
+        <h1 class="cetle1">
+            Favourites<br>
+        </h1>
+    </div>
+
+    <div class="bdy" style="margin: 0px; padding: 0px;">
+        <div style="margin: 0px; padding: 0px;">
+            <ul style="margin: 0px; padding: 0px;">
+                <div class="egb1" style="margin-top: 0px; padding-top: 50px;">
+                    <div class="container mt-5">
+                        <div class="row row-cols-md-4">
+                            <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+                            <!-- Card 1 -->
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/125.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Quantitative Aptitude Quantum CAT</h5>
+                                        <h6>Sarvesh K. Verma</h6>
+                                        <p class="card-text">
+
+
+                                            "Quantitative Aptitude Quantum CAT" by Sarvesh K. Verma is a highly regarded
+                                            book for CAT (Common
+                                            Admission Test) preparation. It offers an extensive collection of
+                                            quantitative aptitude problems
+                                            and solutions, catering to the CAT exam's unique requirements. This resource
+                                            is designed to help
+                                            CAT aspirants strengthen their mathematical skills and problem-solving
+                                            abilities for optimal
+                                            performance on the exam.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/scvx31hc08a4v1j/Peter_Atkins__Julio_de_Paula__Physical_Chemistry__1_.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="Favourite75"
+                                                    name="Favourite-checkbox" value="Favourite-button" checked>
+                                                <label for="Favourite75" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 2 -->
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/120.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Quantitative Aptitude</h5>
+                                        <h6>Dinesh Khattar</h6>
+                                        <p class="card-text">
+
+                                            "Quantitative Aptitude" by Dinesh Khattar is a quantitative aptitude book
+                                            that provides a
+                                            comprehensive approach to mastering mathematical concepts and quantitative
+                                            problem-solving skills.
+                                            This book is designed to help individuals preparing for competitive exams
+                                            and tests where
+                                            quantitative aptitude is a key component, offering practice exercises and
+                                            strategies for success.
+                                        </p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/ka1gg6wivzwgdc1/Dinesh_Khattar_-_Quantitative_Aptitude_for_Competitive_Examinations-Pearson_Education_%25282020%2529.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="Favourite70"
+                                                    name="Favourite-checkbox" value="Favourite-button" checked>
+                                                <label for="Favourite70" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 3 -->
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/2.png" class="card-img-top equal-image" alt="Event 2">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Operating System Concepts</h5>
+                                        <h6>Abraham Silberschatz</h6>
+                                        <p class="card-text">"Operating System Concepts" by Abraham Silberschatz is a
+                                            fundamental text on
+                                            operating systems. It covers key concepts and more, offering a comprehensive
+                                            understanding of OS
+                                            principles,it continues to provide a solid theoretical foundation for
+                                            understanding operating
+                                            systems. It uses real-world examples and case studies to illustrate the
+                                            concepts discussed.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/rx8bmy8udqhrhot/Abraham_Silberschatz-Operating_System_Concepts_%25289th%252C2012_12%2529.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="Favourite1"
+                                                    name="Favourite-checkbox" value="Favourite-button" checked>
+                                                <label for="Favourite1" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Card 4 -->
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/25.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Theory of Machines and Mechanisms</h5>
+                                        <h6>John J. Uicker | Gordon R. Pennock</h6>
+                                        <p class="card-text">
+                                            "Theory of Machines and Mechanisms" by John J. Uicker, Gordon R. Pennock,
+                                            and Joseph E. Shigley is
+                                            a textbook that explores the principles and concepts of machine theory and
+                                            mechanisms. It provides
+                                            a valuable resource for students and professionals in mechanical
+                                            engineering.
+                                        </p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/7yz5mpx2w8wg8ll/Theory_of_Machines_and_Mechanisms_%2528_PDFDrive_%2529.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="Favourite25"
+                                                    name="Favourite-checkbox" value="Favourite-button" checked>
+                                                <label for="Favourite25" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/29.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Engineering Mechanics</h5>
+                                        <h6>R.K. Bansal</h6>
+                                        <p class="card-text">
+                                            The Book "Engineering Mechanics" by R.K. Bansal is a widely used textbook
+                                            and also very good that
+                                            covers the principles and concepts of engineering mechanics. It explores
+                                            topics related to statics
+                                            and dynamics, making it valuable for students and professionals in various
+                                            branches of
+                                            engineering.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/ow9tmvwqfwrx6u1/EnggMechanics.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="favorite29"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite29" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/199.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">The Discovery of India</h5>
+                                        <h6>Jawaharlal Nehru</h6>
+                                        <p class="card-text">
+                                            "The Discovery of India" by Jawaharlal Nehru, published by Oxford University
+                                            Press, is a monumental work that spans India's rich history, culture, and
+                                            philosophy. Written during his imprisonment in 1942-1946, Nehru explores
+                                            India's
+                                            ancient heritage, its struggle for independence, and the socio-political and
+                                            cultural forces that have shaped the nation. His eloquent prose and deep
+                                            insights make it a seminal work in Indian literature. The book offers an
+                                            invaluable perspective on India's identity and historical evolution, serving
+                                            as
+                                            a timeless resource for those seeking a profound understanding of the
+                                            country's
+                                            complex past.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/w9gvbwvkurthxub/The-Discovery-Of-India-Jawaharlal-Nehru.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="favorite129"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite129" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/53.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Differential Calculus</h5>
+                                        <h6>Amit M. Agarwal</h6>
+                                        <p class="card-text">
+                                            "Differential Calculus" is a popular study resource for JEE (Joint Entrance
+                                            Examination)
+                                            preparation. It covers the topic of differential calculus in-depth, offering
+                                            a overview of
+                                            concepts, theories, and problem-solving strategies. This book is intended to
+                                            assist JEE aspirants
+                                            in mastering differential calculus and performing well in the examination.
+                                        </p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/moittkaph7h3rxe/Differential_Calculus.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite53"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite53" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/160.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Being Logical</h5>
+                                        <h6>D.Q. McInerny</h6>
+                                        <p class="card-text">
+                                            "Being Logical: A Guide to Good Thinking" is a book written by D.Q.
+                                            McInerny.
+                                            This book provides valuable insights into the principles of logical thinking
+                                            and
+                                            reasoning. It offers guidance on how to think more effectively, make better
+                                            decisions, and communicate more clearly through the application of logical
+                                            principles. It's a useful resource for anyone looking to enhance their
+                                            critical
+                                            thinking skills.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/c065jn1nxdvl2db/being_logical_-_Inerny.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite153"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite153" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/232.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Traditional Chinese</h5>
+                                        <h6>EmblemHealth</h6>
+                                        <p class="card-text">
+                                            EmblemHealth, a prominent health insurance provider, offers a
+                                            range of comprehensive healthcare solutions. With a commitment
+                                            to enhancing the well-being of its members, EmblemHealth
+                                            combines traditional Chinese medicine with modern healthcare
+                                            practices. This unique approach integrates holistic therapies
+                                            such as acupuncture and herbal remedies to complement
+                                            conventional treatments. EmblemHealth strives to provide
+                                            culturally sensitive and effective healthcare options to meet
+                                            the diverse needs of its members, promoting a holistic approach
+                                            to wellness rooted in both traditional Chinese wisdom and
+                                            contemporary medical expertise.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/4rv84n9t58mkpq0/3._Traditional_Chinese_Author_EmblemHealth.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite154"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite154" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/243.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Human or Superhuman</h5>
+                                        <h6>Lada Stevanović</h6>
+                                        <p class="card-text">
+                                            A book titled "Human or Superhuman, the Concept of Hero in
+                                            Ancient Greek Religion and in Politics" by Lada Stevanović would
+                                            likely delve into the concept of heroism in ancient Greek
+                                            culture, particularly examining how heroes were perceived in
+                                            both religious and political contexts. Such a book would likely
+                                            explore the roles of heroes, their attributes, and their
+                                            significance in Greek mythology and society. It might also
+                                            investigate how the idea of heroism influenced politics and
+                                            governance in ancient Greece. Overall, the book would provide
+                                            valuable insights into the multifaceted concept of heroism in
+                                            Greek antiquity.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/pgbit18sg8iim41/04._Human_or_Superhuman%252C_the_Concept_of_Hero_in_Ancient_Greek_Religion_andin_Politics_author_Lada_Stevanovi%25C4%2587.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite155"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite155" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/204.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Pride and Prejudice</h5>
+                                        <h6>Jane Austen</h6>
+                                        <p class="card-text">
+                                            "Pride and Prejudice" is a classic novel
+                                            written by Jane Austen and first published in 1813. The story is
+                                            set in rural England and revolves around the Bennet family,
+                                            particularly the headstrong and independent Elizabeth Bennet.
+                                            The novel explores themes of social class, marriage, and
+                                            personal growth as Elizabeth navigates the complex social and
+                                            romantic landscape of her time. She eventually finds herself
+                                            attracted to the enigmatic and initially aloof Mr. Darcy, and
+                                            their evolving relationship forms the heart of the story.
+                                            Austen's novel is known for its wit, character development, and
+                                            sharp critique of the social norms of early 19th-century
+                                            England. It remains a beloved and enduring work of English
+                                            literature.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/0hed57bhocn7jze/pandp12p.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite156"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite156" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/211.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">The Trial</h5>
+                                        <h6>Franz Kafka</h6>
+                                        <p class="card-text">
+                                            "The Trial" by Franz Kafka tells the story of Josef K., a man
+                                            arrested and put on trial by an enigmatic legal system. He faces
+                                            absurdity and confusion as he navigates the convoluted
+                                            bureaucracy. Kafka's work delves into themes of alienation and
+                                            the individual's powerlessness against incomprehensible
+                                            institutions. The novel is a masterpiece of existential
+                                            literature, portraying one man's struggle against an oppressive
+                                            and irrational society.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/oyw6509p40ju97s/2._The_Trial_Author_Franz_Kafka.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite157"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite157" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/75.png" class="card-img-top equal-image" alt="Event 1">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Atkins' Physical Chemistry</h5>
+                                        <h6>Peter Atkins | Julio de Paula</h6>
+                                        <p class="card-text">
+                                            It by Peter Atkins and Julio de Paula is a widely recognized textbook
+                                            offering a comprehensive
+                                            introduction to physical chemistry. It covers essential topics such as
+                                            thermodynamics, quantum
+                                            mechanics, and kinetics, making it a valuable resource for students and
+                                            researchers in the field
+                                            of chemistry at various academic levels.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/scvx31hc08a4v1j/Peter_Atkins__Julio_de_Paula__Physical_Chemistry__1_.pdf/file"
+                                            class="buttonDownload ">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite158"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite158" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/148.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Indian Art and Culture</h5>
+                                        <h6>Nitin Singhania</h6>
+                                        <p class="card-text">
+
+                                            "Indian Art and Culture" by Nitin Singhania is a valuable resource,
+                                            especially for Civil Services
+                                            Examination aspirants. It comprehensively covers India's diverse cultural
+                                            and artistic heritage,
+                                            aiding in exam preparation. The book is renowned for its in-depth coverage,
+                                            making it a preferred
+                                            choice for those seeking a deeper understanding of Indian culture.</p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/5f3zg94ovtbtr0x/IndianArtandCulture-NitinSinghania2nd-2.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="favorite60"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite60" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3 my-2">
+                                <div class="card mb-4 zoom-card">
+                                    <img src="Icons/152.png" class="card-img-top equal-image">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Gist India Year Book 2023</h5>
+                                        <h6>GS Score</h6>
+                                        <p class="card-text">
+                                            The "Gist India Year Book 2023" is a condensed version of the India Year
+                                            Book for 2023. It
+                                            provides a concise summary of key information on Indian government policies,
+                                            statistics, and
+                                            socio-economic data, making it a valuable quick reference for staying
+                                            informed about India's
+                                            current affairs and developments.
+                                        </p>
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/1z96kaisgq9chp7/1682165125-PDF-INDIA-YEAR-BOOK-2023.pdf/file"
+                                            class="buttonDownload">Download</a>
+                                        <div class="parent">
+                                            <div class="child">
+
+                                                <input type="checkbox" class="fvrt" id="favorite160"
+                                                    name="favorite-checkbox" value="favorite-button" checked>
+                                                <label for="favorite160" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Removed</span>
+                                                        <span class="option-2">Favourite Book</span>
+                                                    </div>
+
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="center-pagination">
+            <nav aria-label="...">
+                <ul class="pagination custom-pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+            <nav
+                class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+                <div class="container-fluid align-items-center justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS and jQuery/Popper.js -->
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

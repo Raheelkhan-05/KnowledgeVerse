@@ -1,0 +1,351 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-orange {
+    background-color: orange;
+    background-image: url(Icons/bk3.png);
+    background-position: -140px 0px;
+    /* Adjust background size as needed */
+    /* Adjust background position as needed */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.logo {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 0px;
+}
+
+.search-container {
+    position: relative;
+}
+
+.search-bar {
+    width: 250px;
+    height: 30px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    transition: width 0.3s ease-in-out;
+    outline: none;
+    box-shadow: 2px 2px 5px rgb(186, 121, 0);
+
+}
+
+.zoom {
+    transition: transform 0.5s;
+}
+
+.zoom:hover {
+    transform: scale(1.04);
+}
+
+.search-bar:focus {
+    width: 320px;
+}
+
+.search-icon {
+    position: absolute;
+    color: black;
+    right: 20px;
+    /* Adjust the left position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.ihrt {
+    color: rgb(232, 0, 54);
+    text-shadow: 0px 0px 5px white;
+}
+
+.fv-cntr {
+    transition: transform 0.5s;
+}
+
+.fv-cntr:hover {
+    transform: scale(1.09);
+}
+
+.lnk {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 0px 0px 5px black;
+    font-variant: small-caps;
+    font-weight: 600;
+}
+
+@media (min-width: 991px) {
+    .logo {
+        padding-left: 70px;
+        padding-right: 70px;
+        padding-top: 0px;
+    }
+
+    .cetle {
+        background-size: 15% 100% !important;
+    }
+
+    .fsts {
+        padding-left: 80px !important;
+    }
+
+    .btnstl {
+        margin-right: 60px;
+    }
+
+    .custm-navbar {
+        height: 30px;
+    }
+
+    .custm-navbar1 {
+        height: 30px;
+    }
+
+    .custm-navbar2 {
+        height: 30px;
+    }
+
+    .crslw {
+        width: 70%;
+        height: 400px !important;
+    }
+}
+
+@media (max-width: 990px) {
+    .search-container {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        /* Increase the vertical gap */
+    }
+
+    .custm-navbar {
+        background-image: url(Icons/bk3.png);
+        background-position: -130px -85px;
+    }
+
+    .custm-navbar1 {
+        background-image: url(Icons/bk3.png);
+        background-position: -130px -85px;
+    }
+
+    .custm-navbar2 {
+        background-image: url(Icons/bk3.png);
+        background-position: -130px -85px;
+    }
+
+    .search-bar {
+        width: 200px;
+    }
+
+    .search-bar:focus {
+        width: 250px;
+    }
+
+    .chk {
+        display: relative;
+        padding-left: 50%;
+        margin-left: 500px;
+    }
+
+    .crslw {
+        width: 100%;
+        height: 400px;
+    }
+
+}
+
+@media(min-width: 1199px) {
+
+    .cetle {
+        background-size: 10% 100% !important;
+    }
+}
+
+
+
+.btn-container {
+    text-align: center;
+    margin: 3%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Decrease the size of the entire capsule container */
+.capsule-container {
+    display: inline-block;
+    background-color: white;
+    border-radius: 15px;
+    /* Adjust the outer capsule border radius */
+    box-shadow: 2px 2px 10px black;
+    transition: background-color 0.5s, transform 0.5s;
+}
+
+/* Decrease the size of the "Log in" button */
+.login-btn {
+    display: inline-block;
+    background-color: rgb(254, 187, 61);
+    border-radius: 30px;
+    /* Adjust the inner capsule border radius */
+    padding: 5px 20px;
+    /* Adjust the padding */
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 14px;
+    /* Adjust the font size */
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    transition: background-color 0.3s;
+}
+
+/* Decrease the size of the "Sign Up" button */
+.signup-btn {
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px 15px 5px 5px;
+    /* Adjust the padding */
+    font-size: 14px;
+    /* Adjust the font size */
+    text-align: center;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+    border-radius: 15px;
+    /* Adjust the inner capsule border radius */
+    background-color: transparent;
+    transition: background-color 0.5s;
+}
+
+/* Change the background color of the capsule container when "Sign Up" text is hovered */
+.signup-btn:hover {
+    transition-delay: 0.5s;
+    background-color: rgb(238, 165, 31);
+}
+
+/* Text inside "Log in" button styling */
+.login-btn-text {
+    display: inline-block;
+    transform: scale(1);
+    /* Initial scale for the text */
+    transition: transform 0.5s;
+    /* Smooth transition for text scale */
+}
+
+.login-btn:hover {
+    background-color: rgb(238, 165, 31);
+}
+
+.login-btn-text:hover {
+    transform: scale(1.05);
+}
+
+.signup-btn-text {
+    display: inline-block;
+    transform: scale(1);
+    /* Initial scale for the text */
+    transition: transform 0.5s;
+    /* Smooth transition for text scale */
+}
+
+.signup-btn-text:hover {
+    transform: scale(1.05);
+}
+
+.bkgnd-orng {
+    background-color: orange;
+}
+
+.separator {
+    padding-left: 20px;
+    padding-right: 20px !important;
+    font-size: 14px;
+    transition: transform 0.3s !important;
+    transition: color 0.5s;
+    text-shadow: 0px 0px 2px;
+}
+
+/* If needed, adjust padding and other styles within this custom class */
+.custm-navbar .navbar-nav .nav-link {
+    margin: 5px 15px;
+    /* Adjust padding as needed */
+    line-height: 15px;
+    /* Adjust line height as needed */
+    color: white;
+    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* If needed, adjust the height of the dropdown menu items */
+.custm-navbar .dropdown-menu .dropdown-item {
+    margin: 5px 10px;
+    /* Adjust padding as needed */
+    line-height: 20px;
+    /* Adjust line height as needed */
+}
+
+.custm-navbar {
+    background-color: orange !important;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.separator1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 13px;
+    transition: transform 0.3s !important;
+    transition: color 0.5s;
+    text-shadow: 0px 0px 1px;
+    font-variant: small-caps;
+}
+
+.separator1:hover {
+    transform: scale(1.1) !important;
+    color: orange;
+}
+
+.separator:hover {
+    transform: scale(1.1);
+    color: rgba(255, 255, 255, 0.892) !important;
+}
+
+/* Optional: Remove the default white background for the dropdown items on hover */
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent !important;
+}
+
+.separator2 {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 12px;
+    transition: transform 0.3s !important;
+    transition: color 0.5s;
+    text-shadow: 0px 0px 1px;
+    font-variant: small-caps;
+}
+
+.separator2:hover {
+    transform: scale(1.1) !important;
+    color: orange;
+}
+
+ul li h5 {
+    margin-top: 10px;
+}
+
+.lftr {
+    margin-top: 50px;
+}
+
+.ftr {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

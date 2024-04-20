@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Layout</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .card {
+            width: 40%;
+            margin-bottom: 20px;
+            display: flex;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img {
+            width: 40%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .card-img img {
+            max-width: 100%;
+            max-height: 100%;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .card-author {
+            font-size: 1.2rem;
+            margin-top: 10px;
+        }
+
+        .card-description {
+            margin-top: 20px;
+        }
+
+        .card-actions {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .buttonDownload {
+            width: 45%;
+        }
+
+        .fvrt {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-img">
+                    <img src="Icons/175.png" alt="Book Image">
+                </div>
+                <div class="card-content">
+                    <h4 class="card-title">Verbal Reasoning</h4>
+                    <h5 class="card-author">NA</h5>
+                    <p class="card-description">
+                        "Verbal Reasoning" is a valuable resource designed to enhance verbal reasoning skills. It provides a wide range of exercises, examples, and strategies to improve comprehension, critical thinking, and logical reasoning abilities related to language and text. Whether preparing for exams or seeking to strengthen verbal reasoning skills, this resource offers valuable tools for effectively analyzing and understanding written or spoken information.
+                    </p>
+                    <div class="card-actions">
+                        <a target="_blank" href="https://www.mediafire.com/file/57hu7autpbkflp5/Verbal_Reasoningn.pdf/file" class="buttonDownload cstmlrd">Download</a>
+                        <div class="parent">
+                            <div class="child">
+                                <input type="checkbox" class="fvrt" id="favorite8" name="favorite-checkbox" value="favorite-button">
+                                <label for="favorite8" class="container">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-heart">
+                                        <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                                    </svg>
+                                    <div class="action">
+                                        <span class="option-1">Add to Favorites</span>
+                                        <span class="option-2">Added to Favorites</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more cards here if needed -->
+        </div>
+    </div>
+</body>
+</html>

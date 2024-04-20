@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Logical Reasoning</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="LGstyle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-orange">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+                    height="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <form class="d-flex align-items-center justify-content-center" role="search">
+                    <div class="search-container d-flex zoom">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+                    </div>
+                </form>
+                <div class="fv-cntr text-center">
+                    <a href="#" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="btn-container">
+                    <div class="btnstl">
+                        <div class="capsule-container" id="capsule-container">
+                            <a href="#" class="login-btn"><span class="login-btn-text">Log in</span></a>
+                            <a href="#" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                                    class="signup-btn-text">Sign Up</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active separator fsts" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active separator dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu ul1">
+                        <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+                        <ul style="list-style-type: disc;">
+                            <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+                            <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+                            <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+                            <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+                            <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="#">Logical Reasoning</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="#">Fiction</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="#">Non-Fiction</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="#">Historical</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active separator" href="#">Logical Reasoning</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="#">Fiction</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="#">Non - Fiction</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="#">Historical</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="otr">
+        <h1 class="cetle">
+            Logical Reasoning<br>
+        </h1>
+    </div>
+
+    <div class="bdy">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Icons/GS24.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/GS25.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/GS23.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div>
+            <ul>
+                <li class="hdng">Non-Verbal Reasoning</li>
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card" style="background-color: white !important;">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/160.png" class="img-fluid m-auto equal-image" width="100%"
+                                            style="max-width: 250px; max-height: 100%; min-height: 99%; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9" class="lgclbctxt">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Being Logical: A Guide to Good Thinking</h4>
+                                        <h5>D.Q. McInerny</h5>
+                                        <br>
+                                        <br>
+                                        "Being Logical: A Guide to Good Thinking" is a book written by D.Q. McInerny.
+                                        This book provides valuable insights into the principles of logical thinking and
+                                        reasoning. It offers guidance on how to think more effectively, make better
+                                        decisions, and communicate more clearly through the application of logical
+                                        principles. It's a useful resource for anyone looking to enhance their critical
+                                        thinking skills.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/c065jn1nxdvl2db/being_logical_-_Inerny.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite3"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite3" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/161.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Logical Reasoning Next Level</h4>
+                                        <h5>NA</h5>
+                                        <br>
+                                        <br>
+
+                                        "Logical Reasoning Next Level" is likely a book or resource that focuses on
+                                        advanced logical reasoning techniques. These types of materials are often used
+                                        for competitive exams, such as aptitude tests and entrance exams, to help
+                                        individuals further develop their logical thinking and problem-solving skills.
+                                        These resources typically cover complex logical puzzles, advanced reasoning
+                                        exercises, and strategies to excel in challenging reasoning-based questions.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/142sq3c3azdsmbi/Logical_Reasoning_Next_Level.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite4"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite4" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/162.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Logical Reasoning</h4>
+                                        <h5>NA</h5>
+                                        <br>
+                                        <br>
+
+                                        Logical reasoning refers to the ability to think critically, analyze
+                                        information, and make sound decisions based on evidence and logical principles.
+                                        It involves identifying patterns, drawing conclusions, and solving problems by
+                                        applying deductive and inductive reasoning. Logical reasoning is crucial in
+                                        various aspects of life, including problem-solving, decision-making, and
+                                        academic or professional assessments. It is often a part of standardized tests
+                                        and competitive exams to evaluate an individual's cognitive abilities.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/qwi0nhkr3s5dzac/Logical_Reasoning.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite5"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite5" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/163.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Non-Verbal Reasoning Practice Test 1</h4>
+                                        <h5>Agrawal</h5>
+                                        <br>
+                                        <br>
+                                        Non-verbal reasoning tests assess an individual's ability to analyze and solve
+                                        problems using visual information and patterns rather than relying on written or
+                                        spoken language. These tests typically involve a series of diagrams, shapes, or
+                                        patterns, and the test-taker must identify relationships, complete sequences, or
+                                        make predictions based on the visual elements.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/h6iiowjw043n62j/non-verbal-reasoning-test-1-questions.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite6"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite6" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/164.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Data Interpretation and Logical Reasoning</h4>
+                                        <h5>Arun Sharma</h5>
+                                        <br>
+                                        <br>
+
+                                        "Data Interpretation and Logical Reasoning" by Arun Sharma is a popular book
+                                        among students preparing for competitive exams, particularly in India. Arun
+                                        Sharma is a well-known author in the field of aptitude and competitive exam
+                                        preparation. This book focuses on helping students improve their data
+                                        interpretation and logical reasoning skills, which are essential for various
+                                        entrance exams, including CAT (Common Admission Test), MAT (Management Aptitude
+                                        Test), and other similar tests. It includes a wide range of practice exercises,
+                                        strategies, and tips to excel in these sections of the exams
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/y2t02ye2ik9vd51/pdfcoffee.com_how-to-prepare-for-logical-reasoning-for-cat-arun-sharma-pdf-free.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite7"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite7" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/165.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Logical Reasoning and Data Interpretation for CAT</h4>
+                                        <h5>Nishit K. Sinha</h5>
+                                        <br>
+                                        <br>
+
+
+                                        The book "Logical Reasoning and Data Interpretation for CAT" by Nishit K. Sinha
+                                        is a comprehensive resource for MBA entrance exam preparation, with a primary
+                                        focus on the CAT (Common Admission Test). It provides fully-solved practice
+                                        exercises, previous years' papers for CAT, XAT, and IIFT, and different
+                                        challenge levels to help students boost their scores. The book is designed to
+                                        help students understand concepts and apply strategies effectively in these
+                                        critical exam sections, making it valuable for various MBA entrance examinations
+                                        beyond CAT. The author, Nishit K. Sinha, is a well-regarded name in the field of
+                                        CAT and MBA exam preparation.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/944er1lli527a8k/pdfcoffee.com_logical-reasoning-and-data-interpretation-for-cat-by-nishit-k-sinha-z-liborgpdf-pdf-free.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite8"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite8" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/166.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Quantitative Aptitude</h4>
+                                        <h5>R.S. Aggarwal</h5>
+                                        <br>
+                                        <br>
+                                        "Quantitative Aptitude" by R.S. Aggarwal is a widely recognized and highly
+                                        popular book for improving quantitative aptitude and mathematical skills. This
+                                        book offers a comprehensive approach to various mathematical concepts and
+                                        quantitative problem-solving techniques. It is particularly valuable for
+                                        individuals preparing for competitive exams, including bank exams, government
+                                        job exams, and other tests that assess quantitative aptitude.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/jes4gpvvxptik9e/pdfcoffee.com_rs-agarwal-quantitative-aptitude-bookpdf-pdf-free.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent" style="width: 200px; height: 45px;">
+                                            <div class="child" style="width: 200px; height: 45px;">
+                                                <input type="checkbox" class="fvrt" id="favorite8"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite8" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favorites</span>
+                                                        <span class="option-2">Added to Favorites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </div>
+
+        <div class="center-pagination">
+            <nav aria-label="...">
+                <ul class="pagination custom-pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item" aria-current="page">
+                        <a class="page-link" href="LogicalReasoning2.html">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="LogicalReasoning2.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+            <nav
+                class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+                <div class="container-fluid align-items-center justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator fsts" aria-current="page" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="#">Contact Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="#">Terms Of Use</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="#">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery/Popper.js -->
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

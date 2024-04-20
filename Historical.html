@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Historical</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="LGstyle.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-orange">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+                    height="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <form class="d-flex align-items-center justify-content-center" role="search">
+                    <div class="search-container d-flex zoom">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+                    </div>
+                </form>
+                <div class="fv-cntr text-center">
+                    <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="btn-container">
+                    <div class="btnstl">
+                        <div class="capsule-container" id="capsule-container">
+                            <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+                            <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                                    class="signup-btn-text">Sign Up</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active separator dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu ul1">
+                        <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+                        <ul style="list-style-type: disc;">
+                            <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+                            <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+                            <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+                            <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+                            <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="otr">
+        <h1 class="cetle">
+            Historical<br>
+        </h1>
+    </div>
+
+    <div class="bdy">
+        <div id="carouselExampleAutoplaying" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Icons/GS26.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/GS27.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="Icons/GS28.jpg" class="d-block mx-auto crslw1" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+
+        <div>
+            <ul>
+                <li class="hdng"></li>
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card" style="background-color: white !important;">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/190.png" class="img-fluid m-auto equal-image" width="100%"
+                                            style="max-width: 250px; max-height: 100%; min-height: 99%; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9" class="lgclbctxt">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>A History of Assam</h4>
+                                        <h5>Edward Gait</h5>
+                                        <br>
+                                        <br>
+                                        "A History of Assam" by Edward Gait is a significant historical work that
+                                        explores the rich history and cultural heritage of the Indian state of Assam.
+                                        Published in the early 20th century, this book provides a comprehensive account
+                                        of Assam's history, from ancient times to the British colonial period. It covers
+                                        various aspects, including the region's early history, dynasties, socio-cultural
+                                        developments, and interactions with neighboring regions. Edward Gait's
+                                        meticulous research and narrative make it a valuable resource for those
+                                        interested in the history of Assam and the broader history of India's
+                                        northeastern region.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/njyfje9gbr1ykvb/A_History_of_Assam.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent restyl">
+                                            <div class="child">
+                                                <input type="checkbox" class="fvrt" id="favorite3"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite3" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/199.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>The Discovery of India</h4>
+                                        <h5>Jawaharlal Nehru</h5>
+                                        <br>
+                                        <br>
+                                        "The Discovery of India" by Jawaharlal Nehru, published by Oxford University
+                                        Press, is a monumental work that spans India's rich history, culture, and
+                                        philosophy. Written during his imprisonment in 1942-1946, Nehru explores India's
+                                        ancient heritage, its struggle for independence, and the socio-political and
+                                        cultural forces that have shaped the nation. His eloquent prose and deep
+                                        insights make it a seminal work in Indian literature. The book offers an
+                                        invaluable perspective on India's identity and historical evolution, serving as
+                                        a timeless resource for those seeking a profound understanding of the country's
+                                        complex past.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/w9gvbwvkurthxub/The-Discovery-Of-India-Jawaharlal-Nehru.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite27"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite27" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/191.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>Gone with the Wind</h4>
+                                        <h5>Margaret Mitchell</h5>
+                                        <br>
+                                        <br>
+
+                                        "Gone with the Wind" by Margaret Mitchell is a classic historical novel set
+                                        during the American Civil War and its aftermath. The story follows the life of
+                                        Scarlett O'Hara, a strong-willed Southern belle, as she navigates the challenges
+                                        and hardships brought about by the war. The novel explores themes of love, loss,
+                                        survival, and societal change in the American South. Margaret Mitchell's epic
+                                        tale has become one of the most beloved and enduring works of American
+                                        literature, winning the Pulitzer Prize for Fiction in 1937 and inspiring a
+                                        famous film adaptation.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/ss1xo5i4guhiz8e/Gone_with_the_Wind.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent  restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite4"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite4" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/192.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>India After Gandhi</h4>
+                                        <h5>Ramachandra Guha</h5>
+                                        <br>
+                                        <br>
+
+                                        "India After Gandhi" by Ramachandra Guha is a seminal work of historical
+                                        non-fiction that provides an extensive and comprehensive account of India's
+                                        history since gaining independence in 1947. The book explores the political,
+                                        social, cultural, and economic developments in India during this period,
+                                        examining the challenges and successes of the world's largest democracy.
+                                        Ramachandra Guha's meticulous research and engaging narrative make this book an
+                                        invaluable resource for anyone interested in modern Indian history and politics.
+                                        It delves into the complexities of post-independence India, its leaders, and the
+                                        numerous issues the country has faced on its journey toward becoming a global
+                                        powerhouse.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/bytgrmihfj2lenj/India_after_gandhi.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent  restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite5"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite5" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/193.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>India's Struggle for Independence</h4>
+                                        <h5>Bipan Chandra</h5>
+                                        <br>
+                                        <br>
+
+                                        "India's Struggle for Independence" by Bipan Chandra is a comprehensive and
+                                        authoritative account of India's struggle for freedom from British colonial
+                                        rule. This historical work provides a detailed overview of the various
+                                        movements, events, and key figures that played pivotal roles in the Indian
+                                        independence movement. It covers a wide range of topics, from the First War of
+                                        Independence in 1857 to the attainment of freedom in 1947. Bipan Chandra's book
+                                        offers a deep insight into the political, social, and cultural aspects of the
+                                        struggle, making it an essential resource for understanding the complex history
+                                        of India's fight for independence.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/j8g92xxq1i4u2l0/India%2527s_Struggle_for_Independence_%2528Bipan_Chandra%2529.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent  restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite6"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite6" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/198.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>The Nightingale</h4>
+                                        <h5>Kristin Hannah</h5>
+                                        <br>
+                                        <br>
+                                        "The Nightingale" by Kristin Hannah is a powerful historical fiction novel set
+                                        during World War II. The story follows the lives of two sisters, Vianne and
+                                        Isabelle, in Nazi-occupied France. It explores their struggles, sacrifices, and
+                                        acts of resistance as they navigate the challenges of war, love, and survival.
+                                        Kristin Hannah's novel is a poignant portrayal of the human spirit's resilience
+                                        and the bonds of sisterhood in the face of adversity. It has received critical
+                                        acclaim and has been celebrated for its emotional storytelling and vivid
+                                        depiction of wartime France.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/8p2dfmgxm5t3p7r/The_Nightingale.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent  restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite16"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite16" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="egb">
+                    <div class="container" style="padding: 0; margin-bottom: 10px; margin-top: 30px;">
+                        <div class="card mb-4 zoom-card">
+                            <div class="row" style="margin: 0;">
+                                <div class="col-md-3 clrimgbk" style="padding: 0;">
+                                    <div style="padding: 0; margin: 0;">
+                                        <img src="Icons/194.png" class="img-fluid m-auto equal-image " width="100%"
+                                            style="max-width: 250px; min-width: 200px; border-radius: 7px; border: 0; padding: 0; margin: 0;">
+                                    </div>
+                                </div>
+                                <div class="col-md-9">
+                                    <br>
+                                    <div class="cntnttxt">
+                                        <h4>The Argumentative Indian</h4>
+                                        <h5>Amartya Sen</h5>
+                                        <br>
+                                        <br>
+
+                                        "The Argumentative Indian: Writings on Indian History, Culture, and Identity" by
+                                        Amartya Sen is a collection of essays that explore various facets of India's
+                                        history, culture, and identity. Amartya Sen, a renowned economist and
+                                        philosopher, delves into topics such as Indian traditions of public debate and
+                                        discussion, the role of secularism in India, the importance of pluralism, and
+                                        the country's rich intellectual and artistic heritage. The book reflects on
+                                        India's diversity and its ability to engage in reasoned and argumentative
+                                        discourse, highlighting the significance of these qualities in shaping India's
+                                        identity and progress. It offers a thought-provoking perspective on India's past
+                                        and present.
+                                    </div>
+                                    <div class="d-flex align-items-center">
+                                        <a target="_blank"
+                                            href="https://www.mediafire.com/file/72i3mqzn109yuwb/kupdf.net_the-argumentative-indian-writings-on-indian-history-culture-and-identity-amartya-sen.pdf/file"
+                                            class="buttonDownload cstmlrd"
+                                            style="width: 200px !important; height: 45px; margin-right: 10px;margin-left: 0px; margin-bottom: 23px;">Download</a>
+                                        <div class="parent  restyl"  >
+                                            <div class="child"  >
+                                                <input type="checkbox" class="fvrt" id="favorite7"
+                                                    name="favorite-checkbox" value="favorite-button">
+                                                <label for="favorite7" class="container">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                        viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-heart">
+                                                        <path
+                                                            d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                                                        </path>
+                                                    </svg>
+
+                                                    <div class="action">
+                                                        <span class="option-1">Add to Favourites</span>
+                                                        <span class="option-2">Added to Favourites</span>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </ul>
+        </div>
+        <div class="center-pagination">
+            <nav aria-label="...">
+                <ul class="pagination custom-pagination">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item" aria-current="page">
+                        <a class="page-link" href="Historical2.html">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="Historical2.html" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+        <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+            <nav
+                class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+                <div class="container-fluid align-items-center justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS and jQuery/Popper.js -->
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

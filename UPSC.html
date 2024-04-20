@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UPSC | Competitive Exams</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-orange">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+          height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+        <form class="d-flex align-items-center justify-content-center" role="search">
+          <div class="search-container d-flex zoom">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+          </div>
+        </form>
+        <div class="fv-cntr text-center">
+          <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="btn-container">
+          <div class="btnstl">
+            <div class="capsule-container" id="capsule-container">
+              <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+              <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                  class="signup-btn-text">Sign Up</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active separator dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            All Categories
+          </a>
+          <ul class="dropdown-menu ul1">
+            <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+            <ul style="list-style-type: disc;">
+              <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+              <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+              <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+              <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+              <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+            </ul>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+        <li>
+          <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+      </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="otr">
+    <h1 class="cetle">
+      Competitive Exams - UPSC<br>
+    </h1>
+  </div>
+
+  <div class="bdy">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Icons/GS22.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS20.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS21.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div>
+      <ul>
+        <li class="hdng">Geography</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/144.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Certificate Physical and Human Geography</h5>
+                    <h6>Goh Cheng Leong</h6>
+                    <p class="card-text">
+
+                      The book "Certificate Physical and Human Geography" is a widely recognized geography textbook
+                      authored by Goh Cheng Leong. This book is often used as a resource for studying physical and human
+                      geography, including topics related to the geographical aspects of India. The "Oxford India"
+                      version may have additional content or adaptations specific to the Indian context, but the core
+                      content is typically authored by Goh Cheng Leong.
+
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/qr1jm3obu8wm8ul/Certificate_Physical_and_Human_Geography_True_copy%255Bupscpdf.com%255D.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite70" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite70" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/145.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">The Earth: Our Habitat</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+                      This textbook provides an introduction to geography concepts for students at the elementary school
+                      level and covers topics related to the Earth's physical features, climate, natural resources, and
+                      more. The authorship for NCERT textbooks is typically attributed to the NCERT itself, as these
+                      books are developed and published by the organization.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/lz7huxzhg7r6kb1/Geography.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite71" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite71" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/146.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Fundamentals of Physical Geography</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+                      The NCERT textbook for Class 11 Geography is titled "Fundamentals of Physical Geography." This
+                      textbook provides a comprehensive introduction to physical geography concepts and covers topics
+                      such as the Earth's structure, landforms, climate, and natural vegetation. The authorship for
+                      NCERT textbooks is typically attributed to the NCERT itself, as these books are developed and
+                      published by the organization.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/qli1ly2o426lhjr/NCERT-Class-11-Geography-Part-1.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite72" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite72" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/147.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Orient BlackSwan School Atlas</h5>
+                    <h6>Orient BlackSwan</h6>
+                    <p class="card-text">
+                      The "Orient BlackSwan School Atlas" is a comprehensive educational atlas widely used in India. It
+                      contains a variety of maps and geographical information, aiding students in the study of geography
+                      and related subjects. The atlas is compiled by a team of cartographers and experts in geographic
+                      information systems.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/kl3ecl4hectbnyw/pdfcoffee.com_orient-blackswan-school-atlas-pdf-pdf-free.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite73" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite73" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li class="hdng">Economics</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/140.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Economic Survey 2022-23</h5>
+                    <h6>Gov. of India</h6>
+                    <p class="card-text">
+                      The "Economic Survey 2022-23" is an annual report presented by the Government of India. It
+                      provides a detailed overview of the country's economic performance, trends, policies, and outlook
+                      for the fiscal year. This document serves as a crucial reference for policymakers, economists, and
+                      stakeholders to understand the state of the Indian economy and plan accordingly.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/yx45b6skt35y42v/echapter.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite50" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite50" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/141.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Overview of The Indian Economy </h5>
+                    <h6>Gov. of India</h6>
+                    <p class="card-text">
+                      An overview of the Indian economy reveals a diverse and rapidly growing market. As of my last
+                      knowledge update in September 2021, India had a mixed economic landscape featuring agriculture,
+                      manufacturing, and services sectors. Key highlights included a youthful population, a growing
+                      middle class, and a rising digital economy. However, challenges such as income inequality,
+                      unemployment, and infrastructure development persisted. To obtain the most current information on
+                      the Indian economy, please refer to the latest economic reports and news sources.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/uihkhd8uwrxi89p/Overview_of_Indian_economy.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite51" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite51" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/142.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Indian economy</h5>
+                    <h6>Alagappa University</h6>
+                    <p class="card-text">
+                      This program likely covers various aspects of the Indian economy, including its history, policies,
+                      challenges, and growth prospects. Students pursuing this course would typically study topics such
+                      as macroeconomics, microeconomics, economic theory, and quantitative analysis to gain a
+                      comprehensive understanding of the Indian economic landscape.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/givpg38kbgi9h96/PG_M.A._Economics_%2528English%2529_362_13_Indian_Economy_MA%255BEco%255D_Ist_Sem.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite52" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite52" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/143.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Indian Economy</h5>
+                    <h6>Sathyabama</h6>
+                    <p class="card-text">
+                      The course "Indian Economy" at the School of Management Studies covers key facets of India's
+                      economic landscape. Students explore topics like macro and microeconomics, government policies,
+                      and economic development. This study equips them with valuable insights into India's economy,
+                      beneficial for business and management contexts.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/no5ves4w4dlg4ln/SBAA1203.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite53" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite53" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <li class="hdng">History</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/148.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Indian Art and Culture</h5>
+                    <h6>Nitin Singhania</h6>
+                    <p class="card-text">
+
+                      "Indian Art and Culture" by Nitin Singhania is a valuable resource, especially for Civil Services
+                      Examination aspirants. It comprehensively covers India's diverse cultural and artistic heritage,
+                      aiding in exam preparation. The book is renowned for its in-depth coverage, making it a preferred
+                      choice for those seeking a deeper understanding of Indian culture.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/5f3zg94ovtbtr0x/IndianArtandCulture-NitinSinghania2nd-2.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite60" name="favorite-checkbox"
+                          value="favorite-button" checked>
+                        <label for="favorite60" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/149.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">India's Struggle for Independence</h5>
+                    <h6>Bipan Chandra</h6>
+                    <p class="card-text">
+                      "India's Struggle for Independence" is a renowned book authored by Bipan Chandra. This
+                      comprehensive work provides a detailed account of the Indian freedom struggle from the late 19th
+                      century to India's independence in 1947. It is a valuable resource for understanding the
+                      historical, political, and social aspects of India's journey to independence from British colonial
+                      rule.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/azse7w86mhl8r8e/India%2527s_Struggle_for_Independence_%2528Bipan_Chandra%2529.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite61" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite61" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/150.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">NCERT History - Medieval India Class 11</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+                      The NCERT History textbook for Class 11, titled "Themes in World History," includes a section on
+                      Medieval India. This section provides insights into various aspects of India's medieval history,
+                      including political developments, society, culture, and more. The book is designed to help
+                      students understand and appreciate the historical context of this period.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/6wrt61flswyqvs7/Medieval-India-Satish-Chandra-1561959855847.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite62" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite62" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/151.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">NCERT History - Modern India Class 12</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+                      The NCERT History textbook for Class 12, titled "Themes in Indian History - Part III," covers
+                      Modern India. This section delves into the modern history of India, including the struggle for
+                      independence, the impact of colonialism, socio-economic changes, and the evolution of India as a
+                      nation-state. It provides students with a comprehensive understanding of India's history from the
+                      late 19th century to the mid-20th century.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/bnlx483uop5r2q9/pdfcoffee.com_verbal-ability-for-cat-by-sujeeet-kumarpdf-pdf-free.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite63" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite63" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <li class="hdng">International Relations</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/152.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Gist India Year Book 2023</h5>
+                    <h6>GS Score</h6>
+                    <p class="card-text">
+                      The "Gist India Year Book 2023" is a condensed version of the India Year Book for 2023. It
+                      provides a concise summary of key information on Indian government policies, statistics, and
+                      socio-economic data, making it a valuable quick reference for staying informed about India's
+                      current affairs and developments.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/1z96kaisgq9chp7/1682165125-PDF-INDIA-YEAR-BOOK-2023.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite160" name="favorite-checkbox"
+                          value="favorite-button" checked>
+                        <label for="favorite160" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/153.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Contemporary World Politics</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+
+                      The NCERT (National Council of Educational Research and Training) textbook for Class XII titled
+                      "Contemporary World Politics" is part of the Political Science curriculum. It provides a
+                      comprehensive understanding of global politics, international relations, and contemporary
+                      political issues. The authorship is attributed to the NCERT, as these textbooks are developed and
+                      published by the organization.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/7gt90iiyx53y5r4/Class-12-CONTEMPORARY-WORLD-POLITICS-english.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite161" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite161" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/154.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Kurukshetra</h5>
+                    <h6>Gov. of India</h6>
+                    <p class="card-text">
+
+                      The "Kurukshetra" magazine is a monthly publication by the Government of India, specifically by
+                      the Ministry of Rural Development. It focuses on rural development and various aspects related to
+                      it, including government schemes, policies, and success stories. The magazine aims to provide
+                      insights and information to stakeholders and those interested in rural development in India.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/q700yld4ts1q0xh/kurukshetra-magazine-september-2023.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite162" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite162" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/155.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Current Affair</h5>
+                    <h6>GK Now</h6>
+                    <p class="card-text">
+
+                      "GK Now Current Affairs" is likely a publication or resource that provides information on current
+                      affairs and general knowledge topics. These resources are commonly used by individuals preparing
+                      for competitive exams, interviews, or those who want to stay informed about current events and
+                      general knowledge. Such publications typically cover a wide range of topics, including national
+                      and international news, politics, economics, sports, science, and more.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/wdxkvvgz7u16c60/monthly_current_affairs_english_may_2023.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite163" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite163" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/157.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Monthly Current Affairs JULY 2023 </h5>
+                    <h6>GK Now</h6>
+                    <p class="card-text">
+                      July's monthly current affairs typically encompass a range of global, national, and local events.
+                      These may include political developments, economic trends, social issues, cultural happenings, and
+                      noteworthy achievements across various sectors. Staying updated on these affairs is essential for
+                      individuals, professionals, and policymakers to make informed decisions and stay connected with
+                      the world.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/vls969aoyvzmpc4/Monthly_Current_Affairs_June_2023_English.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite164" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite164" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/156.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Monthly Current Affairs AUGUST 2023</h5>
+                    <h6>GK Now</h6>
+                    <p class="card-text">
+                      In August, monthly current affairs often encompass a wide range of global, national, and local
+                      events. These may include notable political developments, economic trends, societal issues,
+                      cultural highlights, and outstanding achievements in various sectors. Staying up-to-date with
+                      these affairs is essential for informed decision-making, professional insights, and a well-rounded
+                      understanding of the world.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/nziqs1y2piuzat5/Monthly_Current_Affairs_JULY_2023_English.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite165" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite165" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/158.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Monthly Current Affairs September 2023</h5>
+                    <h6>GK Now</h6>
+                    <p class="card-text">
+
+                      In September, monthly current affairs typically feature a diverse array of global, national, and
+                      local events. These can include significant political updates, economic shifts, social issues,
+                      cultural highlights, and outstanding achievements in various domains. Staying well-informed about
+                      these developments is crucial for making informed decisions, staying updated professionally, and
+                      comprehending the evolving world dynamics.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/wdxkvvgz7u16c60/monthly_current_affairs_english_may_2023.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite166" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite166" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+    <div class="center-pagination">
+      <nav aria-label="...">
+          <ul class="pagination custom-pagination">
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                  </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+    <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+      <nav
+        class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+        <div class="container-fluid align-items-center justify-content-center">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery/Popper.js -->
+  <script src="javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

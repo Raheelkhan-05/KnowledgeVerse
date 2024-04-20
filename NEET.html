@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NEET | Competitive Exams</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-orange">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+          height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+        <form class="d-flex align-items-center justify-content-center" role="search">
+          <div class="search-container d-flex zoom">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+          </div>
+        </form>
+        <div class="fv-cntr text-center">
+          <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="btn-container">
+          <div class="btnstl">
+            <div class="capsule-container" id="capsule-container">
+              <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+              <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                  class="signup-btn-text">Sign Up</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active separator dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            All Categories
+          </a>
+          <ul class="dropdown-menu ul1">
+            <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+            <ul style="list-style-type: disc;">
+              <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+              <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+              <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+              <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+              <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+            </ul>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+        <li>
+          <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+      </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="otr">
+    <h1 class="cetle">
+      Competitive Exams - NEET<br>
+    </h1>
+  </div>
+
+  <div class="bdy">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Icons/GS15.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS14.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS13.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div>
+      <ul>
+        <li class="hdng">Biology</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/80.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">NCERT Biology Class 11</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+
+                      The NCERT Biology Class 11 textbook does not have a single author. It is published by the National
+                      Council of Educational Research and Training (NCERT) in India. NCERT textbooks are typically
+                      written by a team of experts in the respective subject area, and the authors' names are not
+                      prominently featured on the covers. The content is curated and reviewed by educators and subject
+                      matter specialists to ensure accuracy and quality in education.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/xla7dcs62eb4xru/kebo1ps_merged.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite50" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite50" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/81.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">NCERT Biology Class 12</h5>
+                    <h6>NCERT</h6>
+                    <p class="card-text">
+                      "Biology NCERT Class 12" is a textbook published by the National Council of Educational Research
+                      and Training (NCERT) in India. It is designed for students in the 12th grade and covers advanced
+                      topics in biology, including genetics, evolution, ecology, and more. This comprehensive resource
+                      is widely used in Indian schools and helps students prepare for various competitive exams.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/f4h398hu7rqpuei/lebo1ps_merged.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite51" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite51" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/82.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Textbook of Biology - I</h5>
+                    <h6>Pradeep</h6>
+                    <p class="card-text">
+                      "Pradeep's A Textbook of Biology Vol. 1" is a popular biology textbook written by P.S. Dhami and
+                      published by Pradeep Publications. It is widely used by students in India, particularly for
+                      preparing for competitive exams. This volume covers fundamental concepts in biology, including
+                      cell biology, genetics, and plant physiology, making it a valuable resource for science students.
+                    </p>
+                    <a target="_blank" href="https://www.mediafire.com/file/dosw5sald6u0jd9/Binder2.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite52" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite52" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/83.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Elementary Biology</h5>
+                    <h6>Trueman</h6>
+                    <p class="card-text">
+
+                      "Trueman's Elementary Biology - I" is a well-known series of biology textbooks authored by B. K.
+                      Trueman. These books are designed to provide a comprehensive understanding of biology concepts for
+                      students preparing for competitive exams in India, particularly those related to medical and
+                      engineering fields. The series covers various topics in biology, making it a valuable resource for
+                      exam preparation and academic studies.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/rwnijo6gj7ffrw3/Truemans_Elementary_Biology_For_Class_11_And_Neet_-_Vol._1.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite53" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite53" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/84.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Textbook of Biology - II</h5>
+                    <h6>Pradeep</h6>
+                    <p class="card-text">
+                      "Pradeep's A Textbook of Biology Vol. 2" is the second volume of a popular biology textbook series
+                      authored by P.S. Dhami and published by Pradeep Publications. This volume covers advanced topics
+                      in biology, including human anatomy, physiology, and biotechnology. It is widely used by students
+                      in India, especially for competitive exam preparation and a deeper understanding of biological
+                      sciences.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/1sdazg6g55v8y86/Binder3.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite54" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite54" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/85.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Biology for NEET - I</h5>
+                    <h6>Rajiv Vijay</h6>
+                    <p class="card-text">"Objective Biology for NEET Vol. 1" by Rajiv Vijay is a comprehensive study
+                      guide specifically tailored for students preparing for the National Eligibility cum Entrance Test
+                      (NEET) in India. This book focuses on helping students master biology concepts and provides
+                      objective-type questions and practice tests to aid in NEET exam preparation, making it a valuable
+                      resource for aspiring medical students.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/lz463u32t1rmvx3/Objective_Biology_for_NEET_Vol_I_.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite55" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite55" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/86.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Biology for NEET - II</h5>
+                    <h6>Rajiv Vijay</h6>
+                    <p class="card-text">
+                      "Objective Biology for NEET Vol. 2" by Rajiv Vijay is the second volume of a popular study guide
+                      designed for students preparing for the National Eligibility cum Entrance Test (NEET) in India.
+                      This volume continues to provide comprehensive coverage of biology topics and offers
+                      objective-type questions and practice tests, helping NEET aspirants further prepare for the
+                      entrance exam.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/ixl5n8dg1sfdsns/Objective_Biology_for_NEET_Vol_II.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite56" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite56" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/87.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Elementary Biology Vol. 2</h5>
+                    <h6>Trueman</h6>
+                    <p class="card-text">
+                      "Trueman's Elementary Biology Vol. 2" is the second volume of a widely used biology textbook
+                      series authored by B. K. Trueman. This volume continues to cover advanced topics in biology,
+                      providing in-depth knowledge for students preparing for various competitive exams in India,
+                      including those related to medical and engineering fields. It is a valuable resource for a deeper
+                      understanding of biology concepts.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/qgwq0k5hfkcuc78/higher_algebra_BARNARD_and_CHILD-Download_JEE_Preparation_Books.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite58" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite58" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+        <li class="hdng">Chemistry</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/70.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Advanced Organic Chemistry, Part A: Structure and Mechanisms</h5>
+                    <h6>Francis A. Carey</h6>
+                    <p class="card-text">
+                      It is a very good by Francis A. Carey is a prominent textbook that provides a comprehensive
+                      understanding of organic chemistry principles and mechanisms. It is widely used in advanced
+                      chemistry courses and covers essential topics in the field, making it a valuable resource for
+                      students and researchers alike.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/nimud8xkthgtfe9/advanced-organic-chemistry-4ed-2000-part-a-structure-and-mechanisms-carey-sundberg.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite70" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite70" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/100.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Chemistry for NEET Vol. 1</h5>
+                    <h6>Dr. A.K. Singhal | U.K. Singhal</h6>
+                    <p class="card-text">
+                      "Objective Chemistry for NEET" by Dr. A.K. Singhal and U.K. Singhal is a comprehensive study guide
+                      tailored for students preparing for the National Eligibility Cum Entrance Test (NEET) and other
+                      medical entrance exams in India. This book provides a focused approach to chemistry concepts,
+                      offering objective-type questions and practice exams to aid in effective exam preparation for
+                      aspiring medical students.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/l6eapwrc1ouq49h/N_Objective_Chemistry_for_NEET_Vol_I-Pearson_Education_%25282017%2529.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite71" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite71" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/101.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Chemistry for NEET Vol. 2</h5>
+                    <h6> Dr. A.K. Singhal | U.K. Singhal</h6>
+                    <p class="card-text">
+
+
+                      "Objective Chemistry for NEET" by Dr. A.K. Singhal and U.K. Singhal is the second volume of a
+                      comprehensive study guide. Like its predecessor, this book is specifically tailored for students
+                      preparing for the National Eligibility Cum Entrance Test (NEET) and other medical entrance exams
+                      in India. It continues to provide a focused approach to chemistry concepts, offering
+                      objective-type questions and practice exams to aid in effective exam preparation for aspiring
+                      medical students.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/mziv6679r1dmjo5/N_Objective_Chemistry_for_NEET_Vol_II-Pearson_Education_%25282018%2529.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite72" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite72" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/102.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Master The NCERT Chemistry Vol. 1</h5>
+                    <h6>Dr. Narendra Jha</h6>
+                    <p class="card-text">
+                      "Master The NCERT Chemistry Vol-1" is a study guide that aims to help students master the concepts
+                      presented in the NCERT (National Council of Educational Research and Training) chemistry textbook
+                      for the relevant class or grade. It provides additional explanations, practice questions, and
+                      insights to assist students in understanding and excelling in chemistry as per the NCERT
+                      curriculum.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/kcpm1j5tahnp6iz/N_ARIHANT_MASTER_THE_NCERT_CHEMISTRY_CLASS_11.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite73" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite73" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/103.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Master The NCERT Chemistry Vol. 2</h5>
+                    <h6>Dr. Narendra Jha</h6>
+                    <p class="card-text">
+                      "Master The NCERT Chemistry Vol. 2" by Dr. Narendra Jha is a study guide designed to help students
+                      excel in chemistry, particularly as it pertains to the NCERT curriculum for the relevant class or
+                      grade. This book likely provides additional explanations, practice questions, and insights to aid
+                      students in their chemistry studies.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/u8bboiaml8yb0n1/N_ARIHANT_MASTER_THE_NCERT_CHEMISTRY_CLASS_12.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite74" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite74" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/75.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Atkins' Physical Chemistry</h5>
+                    <h6>Peter Atkins | Julio de Paula</h6>
+                    <p class="card-text">
+
+                      It by Peter Atkins and Julio de Paula is a widely recognized textbook offering a comprehensive
+                      introduction to physical chemistry. It covers essential topics such as thermodynamics, quantum
+                      mechanics, and kinetics, making it a valuable resource for students and researchers in the field
+                      of chemistry at various academic levels.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/scvx31hc08a4v1j/Peter_Atkins__Julio_de_Paula__Physical_Chemistry__1_.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite75" name="favorite-checkbox"
+                          value="favorite-button" checked>
+                        <label for="favorite75" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/104.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Chemistry Xtract NCERT</h5>
+                    <h6>Dr. Anuj Kumar | Kalpana Bhargav</h6>
+                    <p class="card-text">
+                      Objective Chemistry Xtract Xncert for NEET" is a study guide specifically tailored for students
+                      preparing for the National Eligibility Cum Entrance Test (NEET) in India. It aims to provide a
+                      concise and focused review of important chemistry topics as per the NCERT curriculum and includes
+                      objective-type questions, practice tests, and other exam-oriented content to help NEET aspirants
+                      in their preparation for the chemistry section of the NEET examination. Unfortunately, I don't
+                      have specific author information for this book.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/duow7v67l0x69wr/N_Chemistry_Objective_NCERT_Xtract.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite76" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite76" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <li class="hdng">Physics</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/60.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">A Collection of Questions and Problems in Physics</h5>
+                    <h6>L.A. Sena</h6>
+                    <p class="card-text">
+                      L.A. Sena's "A Collection of Questions and Problems in Physics" is a comprehensive physics book
+                      offering a diverse array of problems and questions. Designed to aid students in honing their
+                      physics problem-solving skills, it is a valuable resource for exam preparation and a deeper
+                      understanding of the subject.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/a00j16h6l5x94kq/A-collection-of-questions-and-problems-in-physics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite60" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite60" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/90.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Physics Vol. 1</h5>
+                    <h6>D.C. Pandey</h6>
+                    <p class="card-text">
+                      "NEET Objective Physics Vol. 1" is a study guide tailored for students preparing for the National
+                      Eligibility cum Entrance Test (NEET) in India. This volume specifically focuses on physics
+                      concepts and provides objective-type questions and practice tests to aid in NEET exam preparation.
+                      It serves as a valuable resource for aspiring medical and engineering students looking to excel in
+                      the physics portion of the NEET examination.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/fg8wjnv9anvlduq/N_Objective_Physics_for_NEET_Vol_1.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite61" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite61" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/62.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Fundamentals of Physics Extended</h5>
+                    <h6>Jearl Walker</h6>
+                    <p class="card-text">
+
+                      "Fundamentals of Physics Extended" by Jearl Walker is a renowned physics textbook that provides a
+                      comprehensive foundation in fundamental physics concepts. It covers a wide range of topics in
+                      physics, offering clear explanations and a wealth of problem-solving exercises to help students
+                      develop a deep understanding of the subject.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/jtowx9g6h7ncmh9/fundamentals-of-physics-textbook.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite62" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite62" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/63.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">H.C. Verma - Concepts of Physics Volume 1</h5>
+                    <h6>H.C. Verma</h6>
+                    <p class="card-text">
+                      It is a widely used and highly regarded physics textbook. It focuses on fundamental concepts in
+                      physics, providing clear explanations and a variety of problems to help students build a strong
+                      foundation in the subject. This book is a valuable resource for those preparing for competitive
+                      exams and pursuing physics studies.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/32fud5wyr7zwu8v/HC_Verma_-_Concepts_of_Physics_Volume_1.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite63" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite63" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/64.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">H.C. Verma - Concepts of Physics Volume 2</h5>
+                    <h6>H.C. Verma</h6>
+                    <p class="card-text">
+                      "H.C. Verma - Concepts of Physics Volume 2" is the second part of the renowned physics textbook
+                      series by H.C. Verma. It continues to delve into fundamental physics concepts, providing clear
+                      explanations and numerous problem-solving exercises. This book is an essential resource for
+                      preparing competitive exams.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/16z1atrm81dhbu8/HC_Verma_-_Concepts_of_Physics_Volume_2.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite64" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite64" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/65.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Advanced Level Physics</h5>
+                    <h6>Nelkon | Parker</h6>
+                    <p class="card-text">
+                      It is a well-known physics textbook that covers advanced topics in physics typically studied at
+                      the high school or advanced level. It provides in-depth explanations and to help students grasp
+                      complex physics concepts and prepare for advanced physics exams or college-level courses. Nelkon
+                      and Parkers A lvl physics Books for those who are going to be taking IGSCE</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/0hi5agzzvps7dtv/nelkonparker-advancedlevelphysics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite65" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite65" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/66.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Problems in Physics</h5>
+                    <h6>A.A. Pinsky</h6>
+                    <p class="card-text">
+                      "Pinsky - Problems in Physics" is a popular physics book that offers a comprehensive collection of
+                      physics problems and exercises. It is designed to help students practice and improve their
+                      problem-solving skills in physics, making it a valuable resource for those preparing for physics
+                      exams or seeking to enhance their understanding of the subject.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/7g6imobkk73eirf/pinsky-problems-in-physics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite66" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite66" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/91.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Objective Physics Vol. 2</h5>
+                    <h6>D.C. Pandey</h6>
+                    <p class="card-text">
+
+                      "NEET Objective Physics Vol. 2" is the second volume of a study guide designed for students
+                      preparing for the National Eligibility cum Entrance Test (NEET) in India. This volume continues to
+                      cover physics topics in-depth and provides objective-type questions and practice tests to further
+                      assist NEET aspirants in their exam preparation. It is a valuable resource for those aiming to
+                      excel in the physics section of the NEET examination.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/btj826dy7r1926p/N_Objective_Physics_for_NEET_Vol_2.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite67" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite67" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <div class="center-pagination">
+      <nav aria-label="...">
+          <ul class="pagination custom-pagination">
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                  </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+    <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+      <nav
+        class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+        <div class="container-fluid align-items-center justify-content-center">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery/Popper.js -->
+  <script src="javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

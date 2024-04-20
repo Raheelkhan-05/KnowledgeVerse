@@ -1,0 +1,1126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JEE | Competitive Exams</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-orange">
+    <div class="container-fluid">
+      <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+          height="70px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+        <form class="d-flex align-items-center justify-content-center" role="search">
+          <div class="search-container d-flex zoom">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+          </div>
+        </form>
+        <div class="fv-cntr text-center">
+          <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+        </div>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <div class="btn-container">
+          <div class="btnstl">
+            <div class="capsule-container" id="capsule-container">
+              <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+              <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()" onmouseout="restoreColor()"><span
+                  class="signup-btn-text">Sign Up</span></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </nav>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link active separator dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            All Categories
+          </a>
+          <ul class="dropdown-menu ul1">
+            <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+            <ul style="list-style-type: disc;">
+              <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+              <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+              <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+              <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+              <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+            </ul>
+        </li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+        <li>
+          <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+      </ul>
+      </li>
+      <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+      <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <div class="otr">
+    <h1 class="cetle">
+      Competitive Exams - JEE<br>
+    </h1>
+  </div>
+
+  <div class="bdy">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="Icons/GS12.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS10.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="Icons/GS11.jpg" class="d-block mx-auto crslw" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div>
+      <ul>
+        <li class="hdng">Mathematics</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/50.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Arihant Mathematics 43 Years IIT JEE Solved Papers</h5>
+                    <h6>Amit M. Agarwal</h6>
+                    <p class="card-text">
+                      A compilation of 43 years of solved IIT JEE mathematics papers, this resource aids aspirants in
+                      exam preparation. It condenses decades of questions, offering practice and insights into key
+                      concepts and strategies for success.It provides extensive practice and in-depth insights into
+                      essential concepts and effective strategies for exam success.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/fmlosie0rvabbvi/Arihant_Mathematics_43_Years_IIT_JEE_Solved_Papers_WWW.EXAMSAKHA.IN.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite50" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite50" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/51.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Arihant AIEEE Mathematics</h5>
+                    <h6>S.K. Goyel</h6>
+                    <p class="card-text">
+                      The book "Arihant AIEEE Mathematics" by S.K. Goyal is a valuable resource for JEE (Joint Entrance
+                      Examination) preparation. It offers a comprehensive summary of mathematical concepts and
+                      problem-solving techniques required for the exam, helping students enhance their mathematical
+                      skills and improve their chances of success in JEE.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/a5hmhrpnp0a4u6u/Arihant-AIEEE-Mathematics-Download_JEE_Preparation_Books.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite51" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite51" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/52.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Coordinate Geometry</h5>
+                    <h6>S.K. Goyal</h6>
+                    <p class="card-text">
+                      S.K. Goyal's "Coordinate Geometry" is a JEE (Joint Entrance Examination) preparation book that
+                      focuses on the subject of coordinate geometry. It provides topic, including concepts, theories,
+                      and problem-solving techniques. This book is designed to help JEE aspirants develop a strong
+                      understanding of coordinate geometry to excel in the examination.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/ooygddx0hpwmhkq/Coordinate_Geometry.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite52" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite52" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/53.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Differential Calculus</h5>
+                    <h6>Amit M. Agarwal</h6>
+                    <p class="card-text">
+                      "Differential Calculus" is a popular study resource for JEE (Joint Entrance Examination)
+                      preparation. It covers the topic of differential calculus in-depth, offering a overview of
+                      concepts, theories, and problem-solving strategies. This book is intended to assist JEE aspirants
+                      in mastering differential calculus and performing well in the examination.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/moittkaph7h3rxe/Differential_Calculus.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite53" name="favorite-checkbox"
+                          value="favorite-button" checked>
+                        <label for="favorite53" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/54.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Higher Algebra: A Sequel to Elementary Algebra</h5>
+                    <h6>Professor Horsford</h6>
+                    <p class="card-text">
+                      "Higher Algebra: A Sequel to Elementary Algebra " by Professor Horsford is a well-known
+                      mathematics textbook that serves as a follow-up to elementary algebra. It gives higher-level
+                      algebra topics commonly encountered and college mathematics.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/go1a2z8hvpi752h/Higher_Algebra-Hall%2526Knight-Download_JEE_Preparation_Books.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite54" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite54" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card" >
+                  <img src="Icons/55.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Integral Calculus</h5>
+                    <h6>Amit M. Agarwal</h6>
+                    <p class="card-text">Amit M. Agarwal's "Integral Calculus" is a widely-used textbook for preparing
+                      for competitive exams like JEE (Joint Entrance Examination). It covers integral calculus
+                      comprehensively, offering a detailed explanation of concepts, techniques, and problem-solving
+                      strategies.</p>
+                    <a target="_blank" href="https://www.mediafire.com/file/u7lttjx2al3t17r/Integral_Calculus.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite55" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite55" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/56.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Trigonometry</h5>
+                    <h6>Amit M. Agarwal</h6>
+                    <p class="card-text">Amit M. Agarwal's "Trigonometry" is a popular textbook for students preparing
+                      for competitive exams like JEE (Joint Entrance Examination). It provides an in-depth coverage of
+                      trigonometric concepts and their applications, along with numerous solved problems and practice
+                      exercises.
+                    </p>
+                    <a target="_blank" href="https://www.mediafire.com/file/5hzrnxg5eusv83u/Trigonometry.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite56" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite56" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/58.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Higher Algebra</h5>
+                    <h6>Barnard | Child</h6>
+                    <p class="card-text">
+                      It is a notable mathematics textbook that covers advanced algebraic concepts and techniques. It is
+                      widely used in education for students pursuing higher-level algebra studies, offering
+                      comprehensive coverage of topics and numerous exercises to facilitate understanding and practice.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/qgwq0k5hfkcuc78/higher_algebra_BARNARD_and_CHILD-Download_JEE_Preparation_Books.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite58" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite58" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/57.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">IIT Mathematics guide</h5>
+                    <h6>ML Khanna</h6>
+                    <p class="card-text">
+                      ML Khanna's IIT Mathematics guide is a comprehensive resource for IIT-JEE math preparation. It
+                      covers crucial topics with numerous practice problems, aiding students in improving
+                      problem-solving skills and excelling in the mathematics section of the exam.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/tpxqa81acri0wqx/Ml_khanna_for_maths_-_Download_JEE_Preparation_Books.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite57" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite57" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+
+        <li class="hdng">Physics</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/60.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">A Collection of Questions and Problems in Physics</h5>
+                    <h6>L.A. Sena</h6>
+                    <p class="card-text">
+                      L.A. Sena's "A Collection of Questions and Problems in Physics" is a comprehensive physics book
+                      offering a diverse array of problems and questions. Designed to aid students in honing their
+                      physics problem-solving skills, it is a valuable resource for exam preparation and a deeper
+                      understanding of the subject.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/a00j16h6l5x94kq/A-collection-of-questions-and-problems-in-physics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite60" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite60" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/61.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Arihant Physics 43 Years IIT JEE Solved Papers</h5>
+                    <h6>D.C. Pandey</h6>
+                    <p class="card-text">The "Arihant Physics 43 Years IIT JEE Solved Papers" by D.C. Pandey is a
+                      comprehensive collection of solved IIT JEE physics papers spanning over four decades. It serves as
+                      a valuable resource for JEE aspirants, offering insights into the exam's format and providing
+                      solutions to previous years' questions, aiding in exam preparation.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/et0ysfi012ow058/Arihant_Physics_43_Years_IIT_JEE_Solved_Papers_WWW.EXAMSAKHA.IN.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite61" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite61" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/62.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Fundamentals of Physics Extended</h5>
+                    <h6>Jearl Walker</h6>
+                    <p class="card-text">
+
+                      "Fundamentals of Physics Extended" by Jearl Walker is a renowned physics textbook that provides a
+                      comprehensive foundation in fundamental physics concepts. It covers a wide range of topics in
+                      physics, offering clear explanations and a wealth of problem-solving exercises to help students
+                      develop a deep understanding of the subject.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/jtowx9g6h7ncmh9/fundamentals-of-physics-textbook.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite62" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite62" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/63.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">H.C. Verma - Concepts of Physics Volume 1</h5>
+                    <h6>H.C. Verma</h6>
+                    <p class="card-text">
+                      It is a widely used and highly regarded physics textbook. It focuses on fundamental concepts in
+                      physics, providing clear explanations and a variety of problems to help students build a strong
+                      foundation in the subject. This book is a valuable resource for those preparing for competitive
+                      exams and pursuing physics studies.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/32fud5wyr7zwu8v/HC_Verma_-_Concepts_of_Physics_Volume_1.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite63" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite63" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/64.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">H.C. Verma - Concepts of Physics Volume 2</h5>
+                    <h6>H.C. Verma</h6>
+                    <p class="card-text">
+                      "H.C. Verma - Concepts of Physics Volume 2" is the second part of the renowned physics textbook
+                      series by H.C. Verma. It continues to delve into fundamental physics concepts, providing clear
+                      explanations and numerous problem-solving exercises. This book is an essential resource for
+                      preparing competitive exams.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/16z1atrm81dhbu8/HC_Verma_-_Concepts_of_Physics_Volume_2.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite64" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite64" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/65.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Advanced Level Physics</h5>
+                    <h6>Nelkon | Parker</h6>
+                    <p class="card-text">
+                      It is a well-known physics textbook that covers advanced topics in physics typically studied at
+                      the high school or advanced level. It provides in-depth explanations and to help students grasp
+                      complex physics concepts and prepare for advanced physics exams or college-level courses. Nelkon
+                      and Parkers A lvl physics Books for those who are going to be taking IGSCE</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/0hi5agzzvps7dtv/nelkonparker-advancedlevelphysics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite65" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite65" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/66.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Problems in Physics</h5>
+                    <h6>A.A. Pinsky</h6>
+                    <p class="card-text">
+                      "Pinsky - Problems in Physics" is a popular physics book that offers a comprehensive collection of
+                      physics problems and exercises. It is designed to help students practice and improve their
+                      problem-solving skills in physics, making it a valuable resource for those preparing for physics
+                      exams or seeking to enhance their understanding of the subject.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/7g6imobkk73eirf/pinsky-problems-in-physics.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite66" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite66" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <li class="hdng">Chemistry</li>
+        <div class="egb">
+          <div class="container mt-5">
+            <div class="row row-cols-md-4"> <!-- Use row-cols-md-4 for 4 columns in medium-sized screens and above -->
+              <!-- Card 1 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/70.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Advanced Organic Chemistry, Part A: Structure and Mechanisms</h5>
+                    <h6>Francis A. Carey</h6>
+                    <p class="card-text">
+                      It is a very good by Francis A. Carey is a prominent textbook that provides a comprehensive
+                      understanding of organic chemistry principles and mechanisms. It is widely used in advanced
+                      chemistry courses and covers essential topics in the field, making it a valuable resource for
+                      students and researchers alike.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/nimud8xkthgtfe9/advanced-organic-chemistry-4ed-2000-part-a-structure-and-mechanisms-carey-sundberg.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite70" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite70" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 2 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/71.png" class="card-img-top equal-image" alt="Event 2">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Arihant Chemistry 43 Years Chapterwise IIT JEE Solved Papers</h5>
+                    <h6>Ranjeet Shahi</h6>
+                    <p class="card-text">
+                      It is a valuable resource for JEE (Joint Entrance Examination) chemistry preparation. It compiles
+                      solved papers spanning four decades, organized by chapter. This book helps aspirants practice and
+                      understand the application of chemistry concepts in the context of the JEE exam, aiding in their
+                      preparation.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/42h3i0sngurj1fz/Arihant_Chemsitry_43_Years_Chapterwise_IIT_JEE_Solved_Papers_WWW.EXAMSAKHA.IN.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite71" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite71" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 3 -->
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/72.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">GRB Physical Chemistry IIT JEE</h5>
+                    <h6> Dr. O.P. Tandon.</h6>
+                    <p class="card-text">
+
+                      It is a popular textbook designed to help students prepare for the IIT JEE (Indian Institutes of
+                      Technology Joint Entrance Examination) in the field of physical chemistry. It covers a wide range
+                      of topics and provides comprehensive explanations and practice problems to aid students in
+                      mastering the subject and performing well in the examination.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/z37u38vc77yx4fj/GRB_Physical_Chemistry_IIT_JEE.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite72" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite72" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Card 4 -->
+              <div class="col-md-3 my-2"> <!-- Use col-md-3 for 4 equal columns -->
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/73.png" class="card-img-top equal-image" alt="Event 1">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Concise Inorganic Chemistry</h5>
+                    <h6>J.D. Lee</h6>
+                    <p class="card-text">
+                      It is a well-known chemistry textbook written by J.D. Lee. It is a widely used resource for
+                      inorganic chemistry studies, offering clear explanations and comprehensive coverage of essential
+                      topics in the field. This book is a valuable reference for students and researchers in chemistry.
+                      J. D. Lee is one of the most famous academicians in the world.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/lxhfbc52af1jqqk/J.D._Lee__Concise_Inorganic_Chemistry_%25284th_Edition%2529.pdf/file"
+                      class="buttonDownload ">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite73" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite73" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/74.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Organic Chemistry</h5>
+                    <h6>OP Tandon</h6>
+                    <p class="card-text">
+                      "Organic Chemistry" refers to a series of organic chemistry textbooks authored by Dr. O.P. Tandon.
+                      These books are widely used by students and aspirants preparing for various competitive exams,
+                      including medical and engineering entrance tests, as they provide a comprehensive coverage of
+                      organic chemistry concepts and problems.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/cduck36k5zp53z9/op_tandon_organic_chemistry_pdf.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite74" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite74" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/75.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Atkins' Physical Chemistry</h5>
+                    <h6>Peter Atkins | Julio de Paula</h6>
+                    <p class="card-text">
+
+                      It by Peter Atkins and Julio de Paula is a widely recognized textbook offering a comprehensive
+                      introduction to physical chemistry. It covers essential topics such as thermodynamics, quantum
+                      mechanics, and kinetics, making it a valuable resource for students and researchers in the field
+                      of chemistry at various academic levels.</p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/scvx31hc08a4v1j/Peter_Atkins__Julio_de_Paula__Physical_Chemistry__1_.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+
+                        <input type="checkbox" class="fvrt" id="favorite75" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite75" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 my-2">
+                <div class="card mb-4 zoom-card">
+                  <img src="Icons/76.png" class="card-img-top equal-image">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Physical Chemistry</h5>
+                    <h6>P. Bahadur</h6>
+                    <p class="card-text">
+                      It is a prominent textbook, widely used for competitive exam preparation, notably IIT-JEE. It
+                      comprehensively covers essential topics in physical chemistry, including thermodynamics and
+                      chemical equilibrium, offering a valuable resource for a deep understanding of the subject and
+                      success in competitive examinations.
+                    </p>
+                    <a target="_blank"
+                      href="https://www.mediafire.com/file/1q4up6255qa92es/Physical-Chemistry-by-P-Bahadur-_By_EasyEngineering.net.pdf/file"
+                      class="buttonDownload">Download</a>
+                    <div class="parent">
+                      <div class="child">
+                        <input type="checkbox" class="fvrt" id="favorite76" name="favorite-checkbox"
+                          value="favorite-button">
+                        <label for="favorite76" class="container">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="feather feather-heart">
+                            <path
+                              d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                            </path>
+                          </svg>
+                          <div class="action">
+                            <span class="option-1">Add to Favourites</span>
+                            <span class="option-2">Added to Favourites</span>
+                          </div>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+    <div class="center-pagination">
+      <nav aria-label="...">
+          <ul class="pagination custom-pagination">
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                  </a>
+              </li>
+              <li class="page-item active"><a class="page-link" href="#">1</a></li>
+              <li class="page-item disabled">
+                  <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                  </a>
+              </li>
+          </ul>
+      </nav>
+  </div>
+    <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+      <nav
+        class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+        <div class="container-fluid align-items-center justify-content-center">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+            </li>
+            <li class="nav-item ftr align-items-center justify-content-center">
+              <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Include Bootstrap JS and jQuery/Popper.js -->
+  <script src="javascript.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

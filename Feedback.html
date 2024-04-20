@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-orange">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="#"><img src="Icons/logo11.png" alt="Knowledge Verse" width="120px"
+                    height="70px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+                <form class="d-flex align-items-center justify-content-center" role="search">
+                    <div class="search-container d-flex zoom">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <a href="#"><i class="fas fa-search search-icon search-txt"></i></a>
+                    </div>
+                </form>
+                <div class="fv-cntr text-center">
+                    <a href="Favourite.html" class="lnk zoom"><i class="fas ihrt fa-heart"></i>&nbsp;Favourites</a>
+                </div>
+            </div>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <div class="btn-container">
+                    <div class="btnstl">
+                        <div class="capsule-container" id="capsule-container">
+                            <a href="Login.html" class="login-btn"><span class="login-btn-text">Log in</span></a>
+                            <a href="SignUp.html" class="signup-btn" onmouseover="changeColor()"
+                                onmouseout="restoreColor()"><span class="signup-btn-text">Sign Up</span></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary custm-navbar">
+        <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active separator fsts" aria-current="page" href="Home.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link active separator dropdown-toggle" href="#" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        All Categories
+                    </a>
+                    <ul class="dropdown-menu ul1">
+                        <li><a class="dropdown-item separator1 disabled" href="#">Competitive Exams</a></li>
+                        <ul style="list-style-type: disc;">
+                            <li><a href="GATE.html" target="_self" class="dropdown-item separator2">GATE</a></li>
+                            <li><a href="JEE.html" target="_self" class="dropdown-item separator2">JEE</a></li>
+                            <li><a href="NEET.html" target="_self" class="dropdown-item separator2">NEET</a></li>
+                            <li><a href="CAT.html" target="_self" class="dropdown-item separator2">CAT</a></li>
+                            <li><a href="UPSC.html" target="_self" class="dropdown-item separator2">UPSC</a></li>
+                        </ul>
+                </li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="LogicalReasoning.html">Logical Reasoning</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Fiction.html">Fiction</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Mythology.html">Mythology</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Historical.html">Historical</a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item separator1" href="Reviews.html">Reviews</a></li>
+            </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link active separator" href="LogicalReasoning.html">Logical Reasoning</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Fiction.html">Fiction</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Mythology.html">Mythology</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Historical.html">Historical</a></li>
+            <li class="nav-item"><a class="nav-link active separator" href="Reviews.html">Reviews</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="bckgndabuscs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2
+                        style="text-align: center; margin-top: 50px; margin-bottom: 30px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-variant: small-caps; color: white; font-weight: 700; text-decoration: underline;">
+                        Feedback Form</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-md-12 csc" style="position: relative;">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user-alt"></i>
+                        <input type="text" class="login__input login__input12" placeholder="Enter Name" id="ffname">
+                        <br><span class="err" id="errffname"></span>
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-envelope"></i>
+                        <input type="email" class="login__input login__input12" placeholder="Enter Email" id="ffemail">
+                        <br><span class="err" id="errffemail"></span>
+                    </div>
+                    <div class="login__field">
+                        <span class="dob">Category :</span>&nbsp;
+                        <input type="radio" name="contyou" class="mxwdth form-check-input" style="margin-right: 10px; width: 12px;
+                        height: 12px; border: 1px solid gray;"
+                            id="Competitive Exams"><span class="dob"
+                            style="text-shadow: 0px 0px 5px darkorange; font-size: 13px">Competitive Exams</span> <br>
+                        <input type="radio" name="contyou" class="mxwdthgnfr form-check-input"
+                            style="margin-left: 100px;margin-right: 10px;width: 12px;
+                            height: 12px; border: 1px solid gray;" id="Logical Reasoning"><span class="dob"
+                            style="text-shadow: 0px 0px 5px darkorange; font-size: 13px">Logical Reasoning</span> <br>
+                        <input type="radio" name="contyou" class="mxwdthgnfr form-check-input"
+                            style="margin-left: 100px;margin-right: 10px;width: 12px;
+                            height: 12px; border: 1px solid gray;" id="Fiction"><span class="dob"
+                            style="text-shadow: 0px 0px 5px darkorange; font-size: 13px">Fiction</span><br>
+                        <input type="radio" name="contyou" class="mxwdthgnfr form-check-input"
+                            style="margin-left: 100px;margin-right: 10px;width: 12px;
+                            height: 12px; border: 1px solid gray;" id="Mythology"><span class="dob"
+                            style="text-shadow: 0px 0px 5px darkorange; font-size: 13px">Mythology</span><br>
+                        <input type="radio" name="contyou" class="mxwdthgnfr form-check-input"
+                            style="margin-left: 100px;margin-right: 10px;width: 12px;
+                            height: 12px; border: 1px solid gray;" id="Historical"><span class="dob"
+                            style="text-shadow: 0px 0px 5px darkorange; font-size: 13px">Historical</span>
+                            <br><span class="err" id="errctgry"></span>
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-arrow-alt-circle-right"></i>
+                        <input type="text" class="login__input login__input12" placeholder="Enter Subject" id="ffsubject">
+                        <br><span class="err" id="errffsubject"></span>
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-exclamation" style="padding-left: 10px;"></i>
+                        <textarea type="text" class="login__input login__input12"
+                            style="background-color: rgb(255, 191, 71); box-shadow: 0px 0px 10px rgb(41, 33, 16);height: 150px; resize: both;"
+                            placeholder="Enter Feedback" id="ffdescription"></textarea>
+                            <br><span class="err" id="errffdescription"></span>
+                    </div>
+                        <div class="login__field d-flex mb-3">
+                            <span class="dob"> Rating : </span> &nbsp;
+                            <div class="rating">
+                                <span class="fa fa-star" onclick="setupStarRating(0)"></span>
+                                <span class="fa fa-star" onclick="setupStarRating(1)"></span>
+                                <span class="fa fa-star" onclick="setupStarRating(2)"></span>
+                                <span class="fa fa-star" onclick="setupStarRating(3)"></span>
+                                <span class="fa fa-star" onclick="setupStarRating(4)"></span>
+                            </div>
+                          </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12" style="justify-content: center; align-items: center; text-align: center;">
+                    <div class="frflx">
+                        <button class="reg cmnbtn btn buttonlsc buttonlsc16"
+                            style="min-width: 120px; margin-left: 0px; margin-right: 120px; background-color: darkorange; border: 1px solid orange;"
+                            id="createButton" onclick="ffvalidate()">Submit</button>
+                        <button class="log cmnbtn  buttonlsc" style="min-width: 120px;" id="clearButton"
+                            onclick="ffclr()">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="align-items-center justify-content-center lftr" style="text-align: center;">
+            <nav
+                class="navbar-expand-lg bg-body-tertiary custm-navbar2 centered-navbar align-items-center justify-content-center">
+                <div class="container-fluid align-items-center justify-content-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ulnv align-items-center justify-content-center">
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator fsts" aria-current="page" href="AboutUs.html">About
+                                Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="ContactUs.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="TermsOfUse.html">Terms Of Use</a>
+                        </li>
+                        <li class="nav-item ftr align-items-center justify-content-center">
+                            <a class="nav-link active separator" href="Feedback.html">Feedback</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Include Bootstrap JS and jQuery/Popper.js -->
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-vwzf3KrFZO4DUq+5zGzjz3F+L7Gm5F5I3PBA6vKvYKC1y6MBb5Zc26fF++f5w5+EWi"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
